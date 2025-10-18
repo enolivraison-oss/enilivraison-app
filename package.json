@@ -1,12 +1,12 @@
 {
   "name": "eno-livraison",
-  "type": "module",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "vite --host :: --port 3000",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --host :: --port 3000"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "^1.2.1",
